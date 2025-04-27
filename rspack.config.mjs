@@ -53,7 +53,12 @@ const config = {
   plugins: [
     new MFPlugin({
       name: 'test',
-      shared: ['@react-navigation/native-stack'],
+      shared: {
+        '@react-navigation/native-stack': {
+          singleton: true,
+          eager: true,
+        },
+      },
     }),
   ],
   ignoreWarnings: [/@react-native-masked-view/],
