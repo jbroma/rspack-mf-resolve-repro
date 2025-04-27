@@ -23,7 +23,6 @@
     "@babel/runtime": "^7.27.0",
     "@callstack/repack": "^5.0.6",
     "@react-native/babel-preset": "^0.79.1",
-    "@rsbuild/core": "^1.1.13",
     "@swc/helpers": "^0.5.17",
     "babel-loader": "^10.0.0",
     "cross-env": "^7.0.3",
