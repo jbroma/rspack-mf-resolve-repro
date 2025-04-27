@@ -1,3 +1,1 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import '@react-navigation/native-stack';
